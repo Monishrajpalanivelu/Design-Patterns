@@ -1,4 +1,4 @@
-package Creational_Patterns.AdapterPattern;
+package Structural_Patterns.AdapterPattern;
 
 public class AssignmentWork {
       private Pen pen;

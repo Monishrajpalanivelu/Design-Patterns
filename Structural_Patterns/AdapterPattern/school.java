@@ -1,4 +1,4 @@
-package Creational_Patterns.AdapterPattern;
+package Structural_Patterns.AdapterPattern;
 
 public class school {
       public static void main(String[] args) {

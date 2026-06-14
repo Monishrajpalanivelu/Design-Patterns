@@ -1,4 +1,4 @@
-package Creational_Patterns.AdapterPattern;
+package Structural_Patterns.AdapterPattern;
 
 public class PilotPen {
       public void mark(String str){
