@@ -12,7 +12,7 @@ public class IphoneNotifier implements ProductNotifier{
       public void unsubscribe(CustomerNotifier customer){
             list.remove(customer);
       }
-      public void notifyCustomers(String msg){
+      public void notifyCustomers(String msg){  // this is the observer pattern implementation
             for(CustomerNotifier customer : list){
                   customer.notify(msg); // notifies all the subscribers
             }
